@@ -1,4 +1,5 @@
 import Typical from 'react-typical';
+import './Profile.css'
 
 export default function Profile() {
   return (
@@ -6,12 +7,14 @@ export default function Profile() {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <a href='https://www.linkedin.com/in/janlendlperalta/' target='_blank' rel="noopener noreferrer">
-              <i className='fa fa-linkedin'></i>
-            </a>
-            <a href='https://github.com/janlendl' target='_blank' rel="noopener noreferrer">
-              <i className='fa fa-github'></i>
-            </a>
+            <div className='colz-icon'>
+              <a href='https://www.linkedin.com/in/janlendlperalta/' target='_blank' rel="noopener noreferrer">
+                <i className='fa fa-linkedin'></i>
+              </a>
+              <a href='https://github.com/janlendl' target='_blank' rel="noopener noreferrer">
+                <i className='fa fa-github'></i>
+              </a>
+            </div>
           </div>
           <div className='profile-details-name'>
             <span className='primary-text'>
@@ -51,8 +54,13 @@ export default function Profile() {
               Hire Me{" "}
             </button>
             <a href='Lendl_Peralta_Resume.pdf' download='Lendl Lendl_Peralta_Resume.pdf'>
-                  <button className='btn highlighted-btn'>Get Resume</button>
+              <button className='btn highlighted-btn'>Get Resume</button>
             </a>
+          </div>
+        </div>
+        <div className='profile-picture'>
+          <div className='profile-picture-background'>
+
           </div>
         </div>
       </div>
